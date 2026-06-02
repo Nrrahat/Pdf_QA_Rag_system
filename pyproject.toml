@@ -6,5 +6,6 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "pandas>=3.0.3",
+    "pymupdf4llm>=1.27.2.3",
     "scikit-learn>=1.8.0",
 ]
