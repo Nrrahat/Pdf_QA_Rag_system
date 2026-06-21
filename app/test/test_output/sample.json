@@ -2,21 +2,30 @@
     {
         "page_content": "Artificial Intelligence (AI) is transforming modern technology. Systems can now process language, recognize images, and automate complex tasks.",
         "metadata": {
-            "header1": "Artificial Intelligence"
+            "header1": "Artificial Intelligence",
+            "chunk_id": "chunk_0",
+            "char_length": 143,
+            "word_count": 18
         }
     },
     {
         "page_content": "Machine Learning is a subset of AI. It focuses on training algorithms to learn patterns from historical data without being explicitly programmed.",
         "metadata": {
             "header1": "Artificial Intelligence",
-            "header2": "Machine Learning"
+            "header2": "Machine Learning",
+            "chunk_id": "chunk_1",
+            "char_length": 145,
+            "word_count": 22
         }
     },
     {
         "page_content": "Baking a chocolate cake requires flour, sugar, cocoa powder, and eggs. Mix the dry ingredients before adding the wet ingredients and baking at 180Â°C.",
         "metadata": {
             "header1": "Artificial Intelligence",
-            "header2": "Kitchen Recipes"
+            "header2": "Kitchen Recipes",
+            "chunk_id": "chunk_2",
+            "char_length": 150,
+            "word_count": 24
         }
     }
 ]

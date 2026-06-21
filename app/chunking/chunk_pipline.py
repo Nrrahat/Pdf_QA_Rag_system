@@ -51,9 +51,14 @@ def hybrid_chunking(input_dir:str,process_dir:str):
        serialized_doc=[
             {
                 "page_content":doc.page_content,
-                "metadata":doc.metadata
+                "metadata":{
+                    **doc.metadata,
+                    "chunk_id": f"chunk_{idx}",
+                    "char_length": len(doc.page_content),
+                    "word_count": len(doc.page_content.split())
+                }
             }
-            for doc in process_doc
-        ]
+            for idx,doc in enumerate(process_doc) 
+           ]
        with open(terget,"w",encoding="utf-8") as f:
            json.dump(serialized_doc,f,ensure_ascii=False,indent=4)
